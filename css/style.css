@@ -24,7 +24,7 @@
 */
 
 .white {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 /**
@@ -35,10 +35,9 @@
 */
 
 .mt {
-  align-items: left;
+  float: left;
   margin-top: -20px;
   padding-top: 20px;
-
 }
 
 .bg-blue-ui {
@@ -127,7 +126,10 @@ figure img{width:300px;}
 .item-box-blog-date {
   position: absolute;
   z-index: 5;
-  padding: 4 20;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 20px;
+  padding-right: 20px; 
   top: -20px;
   right: 8px;
   background-color: #41cb52;
